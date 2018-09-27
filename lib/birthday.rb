@@ -6,7 +6,7 @@
 
 def happy_birthday(birthday_kids)
   # add your code snippet here!
-birthday_kids[:9]
-birthday_kids[:6]
-birthday_kids[:27]
+    birthday_kids.each do |kids_name, age|
+      puts "Happy Birthday #{kids_name}! You are now #{age} years old!"
+    end
 end
