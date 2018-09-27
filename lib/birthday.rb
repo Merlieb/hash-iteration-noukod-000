@@ -6,7 +6,5 @@
 
 def happy_birthday(birthday_kids)
   # add your code snippet here!
-birthday_kids[:9]
-birthday_kids[:6]
-birthday_kids[:27]
+
 end
